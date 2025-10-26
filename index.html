@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🔐 UltraLock 😎</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top-left logo -->
+  <div class="top-left">🔐 UltraLock 😎</div>
+
+  <!-- Center container -->
+  <div class="fullscreen-container">
+    <p class="subtitle">Your secure and stylish password generator 💪</p>
+
+    <!-- Password length input -->
+    <input id="length" type="number" min="4" max="64" value="12" class="input-box" placeholder="Length">
+
+    <!-- Options -->
+    <div class="checkboxes">
+      <label><input type="checkbox" id="symbols" checked> Symbols</label>
+      <label><input type="checkbox" id="numbers" checked> Numbers</label>
+      <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+    </div>
+
+    <!-- Generate button -->
+    <button id="generate" class="btn-generate">Generate 🔑</button>
+
+    <!-- Output -->
+    <input id="output" readonly class="output-box" placeholder="Your password will appear here 😎">
+
+    <!-- Copy button -->
+    <button id="copy" class="btn-copy">Copy 📋</button>
+  </div>
+
+  <!-- Bottom-right footer with GitHub link -->
+  <div class="bottom-right">
+    Made by <a href="https://github.com/dante-el-gamer" target="_blank">@dante-el-gamer</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+/* Full-screen setup */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+  background: linear-gradient(135deg, #1f1f1f, #0f0f0f);
+  color: white;
+  overflow: hidden;
+}
+
+/* Top-left logo */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #facc15;
+}
+
+/* Bottom-right footer */
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.bottom-right a { color: #facc15; text-decoration: none; }
+.bottom-right a:hover { text-decoration: underline; }
+
+/* Center container */
+.fullscreen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Subtitle */
+.subtitle { font-size: 1.2rem; color: #aaa; }
+
+/* Inputs */
+.input-box, .output-box {
+  width: 80%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background: #2e2e2e;
+  color: #facc15;
+}
+
+/* Checkboxes */
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Buttons */
+.btn-generate, .btn-copy {
+  width: 60%;
+  max-width: 300px;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-generate { background-color: #facc15; color: #000; }
+.btn-generate:hover { background-color: #fde047; }
+
+.btn-copy { background-color: #4b5563; color: white; }
+.btn-copy:hover { background-color: #6b7280; }
+

@@ -1,0 +1,7 @@
+UltraLock - Password Generator
+Author: @dante-el-gamer
+GitHub: https://github.com/dante-el-gamer
+Version: 1.0
+Description: Full-screen password generator that works offline in the browser.
+Tech used: HTML, CSS, JavaScript
+
